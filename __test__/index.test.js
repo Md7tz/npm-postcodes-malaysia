@@ -4,8 +4,8 @@ const { getStates, getCities, getPostcodes, findPostcode } = require("../index")
 // console.log(getCities("Wilayah Persekutuan Putra Jaya"));
 // console.log(getPostcodes("Wilayah Persekutuan Kuala Lumpur", "Bangunan Bangkok Bank"));
 // console.log(findPostcode("62988"));
-
-test('Should get all the states', () => 
+    
+test('Should contain city Jerteh', () => 
 { 
-    expect(getStates().includes("Johor")).toBe(true);
+    expect(findPostcode("22020").city === "Jerteh").toBe(true);
 });
