@@ -1,7 +1,2 @@
 /node_modules/
-old.json
-regex.txt
-
-resources/
-data_import.py
-Malaysia_Postcode.sql
+/resources/
