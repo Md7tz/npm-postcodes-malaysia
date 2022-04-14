@@ -8,7 +8,7 @@ on:
     types: [created]
 
 jobs:
-  build:
+  build-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - run: npm run test
+      - run: npm test
 
   publish-npm:
     needs: build
