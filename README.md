@@ -1,6 +1,7 @@
-# Malaysia Postcodes
+# Postcodes Malaysia
 
-List of Malaysia Postcodes with City and State (JSON) 
+[![npm version](https://img.shields.io/npm/v/postcodes-malaysia.svg?style=flat-square)](https://www.npmjs.org/package/postcodes-malaysia) [![install size](https://packagephobia.now.sh/badge?p=postcodes-malaysia)](https://packagephobia.now.sh/result?p=postcodes-malaysia) [![npm downloads](https://img.shields.io/npm/dm/postcodes-malaysia.svg?style=flat-square)](http://npm-stat.com/charts.html?package=postcodes-malaysia)
+> List of Malaysia Postcodes with City and State (JSON)
 
 ## Table of Contents
 
@@ -19,7 +20,7 @@ List of Malaysia Postcodes with City and State (JSON)
 Install the package from NPM.
 
 ```bash
-npm i postcodes-malaysia
+npm install postcodes-malaysia
 ```
 
 Include it in your script.
@@ -31,12 +32,12 @@ import {
   getCities,
   getPostcodes,
   findPostcode,
-} from "malaysia-postcodes";
+} from "postcodes-malaysia";
 ```
 
 ## Usage
 
-### states
+### allPostcodes
 
 Return all states data with city and state and postcodes
 
@@ -147,8 +148,6 @@ Example results
 ];
 ```
 
-###
-
 ### getPostcodes
 
 Return all postcodes data based on selected state and city
@@ -213,4 +212,5 @@ If you spot any errors, typos or missing information, please submit a pull reque
 ISC. See [LICENSE](LICENSE) for more details.
 
 ## Resources
+
 [https://malaysiapostcode.com/](https://malaysiapostcode.com/)
